@@ -34,6 +34,8 @@ Built with **PyTorch**, **OpenCV**, and a sleek **PyQt5 GUI**, it supports **ima
 ```bash
 git clone https://github.com/<your-username>/Integrated-Recognition-Detection.git
 cd Integrated-Recognition-Detection
+pip install -r requirements.txt
+python run.py
 
 ```
 ---

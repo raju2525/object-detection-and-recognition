@@ -40,6 +40,7 @@ cd Integrated-Recognition-Detection
 
 ## 🖼️ GUI Preview
 ![download](https://github.com/user-attachments/assets/03160430-8515-429f-83e1-58136e05127b)
+---
 
 ## ⚙️ Using Your Own Model
 If you’ve trained your own YOLOv5 model (e.g., for road signs, grains, or gestures):
@@ -48,6 +49,7 @@ edit this line in yolo_gui.py:
 ⬇️ Change it to:
 ``` model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', force_reload=True) ```
 Now it will use your custom-trained model for detection.
+
 ---
 
 

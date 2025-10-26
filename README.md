@@ -43,12 +43,12 @@ cd Integrated-Recognition-Detection
 ---
 
 ## ⚙️ Using Your Own Model
-If you’ve trained your own YOLOv5 model (e.g., for road signs, grains, or gestures):
-edit this line in yolo_gui.py:
-``` model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True) ```
-⬇️ Change it to:
-``` model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', force_reload=True) ```
-Now it will use your custom-trained model for detection.
+- If you’ve trained your own YOLOv5 model (e.g., for road signs, grains, or gestures):
+- edit this line in yolo_gui.py:
+- ``` model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True) ```
+- ⬇️ Change it to:
+- ``` model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', force_reload=True) ```
+- Now it will use your custom-trained model for detection.
 
 ---
 

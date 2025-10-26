@@ -32,7 +32,7 @@ Built with **PyTorch**, **OpenCV**, and a sleek **PyQt5 GUI**, it supports **ima
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/Integrated-Recognition-Detection.git
+git clone https://github.com/raju2525/object-detection-and-recognition.git
 cd Integrated-Recognition-Detection
 pip install -r requirements.txt
 python run.py
